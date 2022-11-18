@@ -606,7 +606,7 @@ function scroltotop () {
 	        dots: false,
 		    autoWidth: false,
 		    autoplay:true,
-		    autoplayTimeout:3000,
+		    autoplayTimeout:1000,
 		    responsive: {
 		        0:{
 		            items:1,

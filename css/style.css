@@ -109,7 +109,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   padding: 80px 0;
 }
 .sec-padd2 {
-  padding: 80px 0 30px;
+  padding: 80px 0 80px;
 }
 .sec-padd3 {
   padding: 80px 0 50px;
@@ -350,13 +350,13 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 .social-icon li a {
   display: inline-block;
-  color: #999;
+  color: #fff;
   margin-right: 15px;
   font-size: 16px;
   transition: .5s ease;
 }
 .social-icon li a:hover {
-  color: #1A1A4E;
+  color: #fff;
   transition: .5s ease;
 }
 
@@ -1007,7 +1007,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 
 .top-bar {
   position: relative;
-  line-height: 48px;
+  line-height: 36px;
   z-index: 999;
   background: #1A1A4E;
 }
@@ -1030,7 +1030,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 .top-bar .contact-info li {
   font-family: 'Roboto-light';
-  font-size: 16px;
+  font-size: 12px;
   padding-right: 15px;
   margin-right: 15px;
   line-height: 26px;
@@ -1437,6 +1437,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 
 .nav_side_content .social-icon,
 .nav_side_content .search_option {
+  
   display: inline-block;
 }
 .nav_side_content .social-icon li a {
@@ -1607,6 +1608,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 
 .urgent-cause2 .section-title p {
   padding-bottom: 20px;
+  
 }
 .urgent-cause2.style-2 .cause-list .item {
   margin-bottom: 30px;
@@ -2520,6 +2522,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 .about-2 .text {
   position: relative;
   float: left;
+  text-align: justify;
   margin-bottom: 20px;
 }
 
@@ -4533,7 +4536,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 .main-footer .contact-column .contact-info li i {
   font-size: 18px;
-  color: #1A1A4E;
+  color: #fff;
   position: absolute;
   left: 0;
   top: 6px;
@@ -4860,7 +4863,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 
 .team-style-2 .author p {
-  color: #1A1A4E;
+  color: #666;
 }
 
 .team-style-2 .social-icon li a {
@@ -7732,6 +7735,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 .testimonial-section-one{
   position:relative;
   padding:100px 0px;
+  padding-bottom: 0px;
   background-color:#ffffff;
   background-repeat:no-repeat;
   background-position:center center;
