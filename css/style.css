@@ -566,6 +566,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 .default-form input[type="email"],
 .default-form input[type="password"],
 .default-form input[type="number"],
+.default-form input[type="date"],
 .default-form select,
 .default-form textarea{
   display:block;
@@ -574,7 +575,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   height: 50px;
   font-size:16px;
   box-shadow: none;
-  border: 1px solid #f4f4f4;
+  border: 1px solid #1a1a1a;
   padding:12px 15px;
   background: #fff;
   border-radius: 0px;
@@ -1138,7 +1139,6 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 .theme_menu.stricky-fixed {
   margin: 0;
-  padding: 0;
   position: fixed;
   background: #fff;
   top:0;
@@ -1155,6 +1155,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 
 .theme_menu .container {
   position: relative;
+  
 }
 
 .theme_menu {position: relative;z-index: 99;background: #fff;}
