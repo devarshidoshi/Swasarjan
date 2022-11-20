@@ -1,3 +1,45 @@
+<?php
+
+		// servername => localhost
+		// username => root
+		// password => empty
+		// database name => staff
+		$conn = mysqli_connect("localhost", "root", "", "swasarjan");
+		
+		// Check connection
+		if($conn === false){
+			die("ERROR: Could not connect. "
+				. mysqli_connect_error());
+		}
+		
+		// Taking all 5 values from the form data(input)
+		$name = $_REQUEST['name'];
+		$fname = $_REQUEST['fname'];
+		$mname = $_REQUEST['mname'];
+		$dob = $_REQUEST['dob'];
+		$gender = $_REQUEST['gender'];
+		$aadhar_no = $_REQUEST['aadhar_no'];
+		$mobile = $_REQUEST['mobile'];
+		$address = $_REQUEST['address'];
+		$district = $_REQUEST['district'];
+		$pin = $_REQUEST['pin'];
+		
+		// Performing insert query execution
+		// here our table name is college
+		$sql = "INSERT INTO joinus (`name`, `fname`, `mname`, `dob`, `gender`, `aadhar_no`, `mobile`, `address`, `district`, `pin`) VALUES ('$name',
+			'$fname','$mname','$dob','$gender','$aadhar_no','$mobile','$address','$district','$pin')";
+		
+		if(mysqli_query($conn, $sql)){
+			echo '<script>alert("Form Submitted Successfully")</script>';
+		} else{
+			echo "ERROR: Hush! Sorry $sql. "
+				. mysqli_error($conn);
+		}
+		
+		// Close connection
+		mysqli_close($conn);
+		?>
+
 <!DOCTYPE html>
 <html lang="en">
 
